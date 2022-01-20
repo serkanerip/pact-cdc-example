@@ -1,0 +1,109 @@
+{
+  "consumer": {
+    "name": "MyConsumer"
+  },
+  "provider": {
+    "name": "MyProvider"
+  },
+  "interactions": [
+    {
+      "description": "A request for API health",
+      "providerState": "Server is healthy",
+      "request": {
+        "method": "GET",
+        "path": "/health"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+        },
+        "body": {
+          "status": "up",
+          "since": "32 hours",
+          "foo": "bar"
+        },
+        "matchingRules": {
+          "$.body.status": {
+            "match": "type"
+          }
+        }
+      }
+    },
+    {
+      "description": "A request for Users API",
+      "providerState": "Users state",
+      "request": {
+        "method": "GET",
+        "path": "/users"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+        },
+        "body": [
+          {
+            "name": "Serkan",
+            "lastname": "Erip",
+            "age": 23
+          }
+        ],
+        "matchingRules": {
+          "$.body": {
+            "min": 1
+          },
+          "$.body[*].*": {
+            "match": "type"
+          }
+        }
+      }
+    },
+    {
+      "description": "A request for Posts API",
+      "providerState": "Posts state",
+      "request": {
+        "method": "GET",
+        "path": "/posts"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+        },
+        "body": [
+          {
+            "title": "Lorem ipsum",
+            "body": "Lorem ipsum dolar sit amet"
+          }
+        ],
+        "matchingRules": {
+          "$.body": {
+            "min": 1
+          },
+          "$.body[*].*": {
+            "match": "type"
+          }
+        }
+      }
+    },
+    {
+      "description": "A request for Pong API",
+      "providerState": "Pongs state",
+      "request": {
+        "method": "GET",
+        "path": "/pong"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+        },
+        "body": {
+          "msg": "ping"
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  }
+}

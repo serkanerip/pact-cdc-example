@@ -1,0 +1,20 @@
+{
+  "name": "consumer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.8",
+    "babel-jest": "^27.4.6",
+    "jest": "^27.4.7",
+    "jest-pact": "^0.9.1"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "@pact-foundation/pact": "^9.17.2",
+    "axios": "^0.25.0"
+  }
+}

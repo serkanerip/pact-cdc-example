@@ -1,0 +1,1022 @@
+# Logfile created on 2022-01-18 17:51:32 +0300 by logger.rb/47272
+I, [2022-01-18T17:52:16.138117 #51993]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-18T17:52:16.138317 #51993]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-18T17:52:16.138357 #51993] DEBUG -- : body :
+I, [2022-01-18T17:52:16.156941 #51993]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Tue, 18 Jan 2022 14:52:16 GMT"}, see debug logs for body
+D, [2022-01-18T17:52:16.157009 #51993] DEBUG -- : body: {"status":"up"}
+I, [2022-01-18T17:53:10.615858 #52075]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-18T17:53:10.616072 #52075]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-18T17:53:10.616145 #52075] DEBUG -- : body :
+I, [2022-01-18T17:53:10.630218 #52075]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Tue, 18 Jan 2022 14:53:10 GMT"}, see debug logs for body
+D, [2022-01-18T17:53:10.630287 #52075] DEBUG -- : body: {"status":"up"}
+I, [2022-01-18T17:54:00.370391 #52191]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-18T17:54:00.370853 #52191]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-18T17:54:00.370892 #52191] DEBUG -- : body :
+I, [2022-01-18T17:54:00.387009 #52191]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"application/json", "Date"=>"Tue, 18 Jan 2022 14:54:00 GMT"}, see debug logs for body
+D, [2022-01-18T17:54:00.387077 #52191] DEBUG -- : body: {"status":"up"}
+I, [2022-01-18T18:26:09.796649 #52337]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-18T18:26:09.807641 #52337]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-18T18:26:09.807689 #52337] DEBUG -- : body :
+I, [2022-01-18T18:26:09.821813 #52337]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"application/json", "Date"=>"Tue, 18 Jan 2022 15:26:09 GMT"}, see debug logs for body
+D, [2022-01-18T18:26:09.821871 #52337] DEBUG -- : body: {"status":"up"}
+I, [2022-01-18T23:28:02.052620 #53388]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-18T23:28:02.058124 #53388]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-18T23:28:02.058185 #53388] DEBUG -- : body :
+I, [2022-01-18T23:28:02.074256 #53388]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"application/json", "Date"=>"Tue, 18 Jan 2022 20:28:02 GMT"}, see debug logs for body
+D, [2022-01-18T23:28:02.074337 #53388] DEBUG -- : body: {"status":"up"}
+I, [2022-01-18T23:28:02.097480 #53388]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-18T23:28:02.099229 #53388]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-18T23:28:02.099292 #53388] DEBUG -- : body :
+I, [2022-01-18T23:28:02.101744 #53388]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"application/json", "Date"=>"Tue, 18 Jan 2022 20:28:02 GMT"}, see debug logs for body
+D, [2022-01-18T23:28:02.101801 #53388] DEBUG -- : body: {"status":"up"}
+I, [2022-01-18T23:54:29.134223 #53667]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-18T23:54:29.139351 #53667]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-18T23:54:29.139407 #53667] DEBUG -- : body :
+I, [2022-01-18T23:54:29.154417 #53667]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"application/json", "Date"=>"Tue, 18 Jan 2022 20:54:29 GMT"}, see debug logs for body
+D, [2022-01-18T23:54:29.154478 #53667] DEBUG -- : body: {"status":"up"}
+I, [2022-01-18T23:54:29.226202 #53667]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-18T23:54:29.227813 #53667]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-18T23:54:29.227877 #53667] DEBUG -- : body :
+I, [2022-01-18T23:54:29.229526 #53667]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"application/json", "Date"=>"Tue, 18 Jan 2022 20:54:29 GMT"}, see debug logs for body
+D, [2022-01-18T23:54:29.229560 #53667] DEBUG -- : body: {"status":"up"}
+I, [2022-01-18T23:55:35.972428 #53747]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-18T23:55:35.976847 #53747]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-18T23:55:35.976901 #53747] DEBUG -- : body :
+I, [2022-01-18T23:55:35.989281 #53747]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"application/json", "Date"=>"Tue, 18 Jan 2022 20:55:35 GMT"}, see debug logs for body
+D, [2022-01-18T23:55:35.989350 #53747] DEBUG -- : body: {"status":"up"}
+I, [2022-01-18T23:57:07.193247 #53831]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-18T23:57:07.197622 #53831]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-18T23:57:07.197677 #53831] DEBUG -- : body :
+I, [2022-01-18T23:57:07.210277 #53831]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"application/json", "Date"=>"Tue, 18 Jan 2022 20:57:07 GMT"}, see debug logs for body
+D, [2022-01-18T23:57:07.210347 #53831] DEBUG -- : body: {"status":"up"}
+I, [2022-01-19T00:39:50.785722 #55430]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T00:39:50.790740 #55430]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T00:39:50.790809 #55430] DEBUG -- : body :
+I, [2022-01-19T00:39:50.805827 #55430]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"application/json", "Date"=>"Tue, 18 Jan 2022 21:39:50 GMT"}, see debug logs for body
+D, [2022-01-19T00:39:50.805885 #55430] DEBUG -- : body: {"status":"up"}
+I, [2022-01-19T00:39:50.807432 #55430]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T00:39:50.808754 #55430]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T00:39:50.808790 #55430] DEBUG -- : body :
+I, [2022-01-19T00:39:50.810774 #55430]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"19", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Tue, 18 Jan 2022 21:39:50 GMT", "X-Content-Type-Options"=>"nosniff"}, see debug logs for body
+D, [2022-01-19T00:39:50.810820 #55430] DEBUG -- : body: 404 page not found
+
+I, [2022-01-19T00:39:50.883704 #55430]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T00:39:50.884922 #55430]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T00:39:50.884955 #55430] DEBUG -- : body :
+I, [2022-01-19T00:39:50.886548 #55430]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"application/json", "Date"=>"Tue, 18 Jan 2022 21:39:50 GMT"}, see debug logs for body
+D, [2022-01-19T00:39:50.886602 #55430] DEBUG -- : body: {"status":"up"}
+I, [2022-01-19T00:40:22.671038 #55507]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T00:40:22.675413 #55507]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T00:40:22.675468 #55507] DEBUG -- : body :
+I, [2022-01-19T00:40:22.687686 #55507]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"application/json", "Date"=>"Tue, 18 Jan 2022 21:40:22 GMT"}, see debug logs for body
+D, [2022-01-19T00:40:22.687780 #55507] DEBUG -- : body: {"status":"up"}
+I, [2022-01-19T00:40:22.689037 #55507]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T00:40:22.690373 #55507]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T00:40:22.690414 #55507] DEBUG -- : body :
+I, [2022-01-19T00:40:22.692445 #55507]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"19", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Tue, 18 Jan 2022 21:40:22 GMT", "X-Content-Type-Options"=>"nosniff"}, see debug logs for body
+D, [2022-01-19T00:40:22.692491 #55507] DEBUG -- : body: 404 page not found
+
+I, [2022-01-19T00:40:22.755909 #55507]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T00:40:22.757104 #55507]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T00:40:22.757143 #55507] DEBUG -- : body :
+I, [2022-01-19T00:40:22.758737 #55507]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"application/json", "Date"=>"Tue, 18 Jan 2022 21:40:22 GMT"}, see debug logs for body
+D, [2022-01-19T00:40:22.758784 #55507] DEBUG -- : body: {"status":"up"}
+I, [2022-01-19T00:41:25.730261 #55592]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T00:41:25.734656 #55592]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T00:41:25.734714 #55592] DEBUG -- : body :
+I, [2022-01-19T00:41:25.746734 #55592]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"application/json", "Date"=>"Tue, 18 Jan 2022 21:41:25 GMT"}, see debug logs for body
+D, [2022-01-19T00:41:25.746798 #55592] DEBUG -- : body: {"status":"up"}
+I, [2022-01-19T00:41:25.748071 #55592]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T00:41:25.749410 #55592]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T00:41:25.749455 #55592] DEBUG -- : body :
+I, [2022-01-19T00:41:25.751577 #55592]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"19", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Tue, 18 Jan 2022 21:41:25 GMT", "X-Content-Type-Options"=>"nosniff"}, see debug logs for body
+D, [2022-01-19T00:41:25.751617 #55592] DEBUG -- : body: 404 page not found
+
+I, [2022-01-19T00:41:25.815042 #55592]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T00:41:25.816274 #55592]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T00:41:25.816315 #55592] DEBUG -- : body :
+I, [2022-01-19T00:41:25.817936 #55592]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"application/json", "Date"=>"Tue, 18 Jan 2022 21:41:25 GMT"}, see debug logs for body
+D, [2022-01-19T00:41:25.817974 #55592] DEBUG -- : body: {"status":"up"}
+I, [2022-01-19T00:45:57.065795 #55711]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T00:45:57.071579 #55711]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T00:45:57.071641 #55711] DEBUG -- : body :
+I, [2022-01-19T00:45:57.086279 #55711]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"application/json", "Date"=>"Tue, 18 Jan 2022 21:45:57 GMT"}, see debug logs for body
+D, [2022-01-19T00:45:57.086346 #55711] DEBUG -- : body: {"status":"up"}
+I, [2022-01-19T00:45:57.088010 #55711]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T00:45:57.089350 #55711]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T00:45:57.089396 #55711] DEBUG -- : body :
+I, [2022-01-19T00:45:57.091375 #55711]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"19", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Tue, 18 Jan 2022 21:45:57 GMT", "X-Content-Type-Options"=>"nosniff"}, see debug logs for body
+D, [2022-01-19T00:45:57.091433 #55711] DEBUG -- : body: 404 page not found
+
+I, [2022-01-19T00:45:57.154386 #55711]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T00:45:57.155572 #55711]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T00:45:57.155608 #55711] DEBUG -- : body :
+I, [2022-01-19T00:45:57.157147 #55711]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"application/json", "Date"=>"Tue, 18 Jan 2022 21:45:57 GMT"}, see debug logs for body
+D, [2022-01-19T00:45:57.157181 #55711] DEBUG -- : body: {"status":"up"}
+I, [2022-01-19T00:45:57.157763 #55711]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T00:45:57.158655 #55711]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T00:45:57.158687 #55711] DEBUG -- : body :
+I, [2022-01-19T00:45:57.160204 #55711]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"19", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Tue, 18 Jan 2022 21:45:57 GMT", "X-Content-Type-Options"=>"nosniff"}, see debug logs for body
+D, [2022-01-19T00:45:57.160242 #55711] DEBUG -- : body: 404 page not found
+
+I, [2022-01-19T00:48:38.071325 #55846]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T00:48:38.076481 #55846]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T00:48:38.076534 #55846] DEBUG -- : body :
+I, [2022-01-19T00:48:38.089942 #55846]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"application/json", "Date"=>"Tue, 18 Jan 2022 21:48:38 GMT"}, see debug logs for body
+D, [2022-01-19T00:48:38.089993 #55846] DEBUG -- : body: {"status":"up"}
+I, [2022-01-19T00:48:38.091444 #55846]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T00:48:38.092551 #55846]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T00:48:38.092586 #55846] DEBUG -- : body :
+I, [2022-01-19T00:48:38.094275 #55846]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"27", "Content-Type"=>"application/json", "Date"=>"Tue, 18 Jan 2022 21:48:38 GMT"}, see debug logs for body
+D, [2022-01-19T00:48:38.094311 #55846] DEBUG -- : body: [{"name":"Ayşe","age":18}]
+I, [2022-01-19T00:48:38.164273 #55846]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T00:48:38.165807 #55846]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T00:48:38.165854 #55846] DEBUG -- : body :
+I, [2022-01-19T00:48:38.167752 #55846]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"application/json", "Date"=>"Tue, 18 Jan 2022 21:48:38 GMT"}, see debug logs for body
+D, [2022-01-19T00:48:38.167788 #55846] DEBUG -- : body: {"status":"up"}
+I, [2022-01-19T00:48:38.168522 #55846]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T00:48:38.169637 #55846]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T00:48:38.169670 #55846] DEBUG -- : body :
+I, [2022-01-19T00:48:38.171536 #55846]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"27", "Content-Type"=>"application/json", "Date"=>"Tue, 18 Jan 2022 21:48:38 GMT"}, see debug logs for body
+D, [2022-01-19T00:48:38.171573 #55846] DEBUG -- : body: [{"name":"Ayşe","age":18}]
+I, [2022-01-19T09:47:56.323031 #57361]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T09:47:56.330808 #57361]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T09:47:56.330859 #57361] DEBUG -- : body :
+I, [2022-01-19T09:47:56.345426 #57361]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 06:47:56 GMT"}, see debug logs for body
+D, [2022-01-19T09:47:56.345480 #57361] DEBUG -- : body: {"status":"up"}
+I, [2022-01-19T09:47:56.347014 #57361]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T09:47:56.348094 #57361]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T09:47:56.348135 #57361] DEBUG -- : body :
+I, [2022-01-19T09:47:56.349999 #57361]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"27", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 06:47:56 GMT"}, see debug logs for body
+D, [2022-01-19T09:47:56.350056 #57361] DEBUG -- : body: [{"name":"Ayşe","age":18}]
+I, [2022-01-19T09:47:56.444035 #57361]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T09:47:56.445420 #57361]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T09:47:56.445473 #57361] DEBUG -- : body :
+I, [2022-01-19T09:47:56.447459 #57361]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 06:47:56 GMT"}, see debug logs for body
+D, [2022-01-19T09:47:56.447507 #57361] DEBUG -- : body: {"status":"up"}
+I, [2022-01-19T09:47:56.448408 #57361]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T09:47:56.449804 #57361]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T09:47:56.449873 #57361] DEBUG -- : body :
+I, [2022-01-19T09:47:56.452275 #57361]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"27", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 06:47:56 GMT"}, see debug logs for body
+D, [2022-01-19T09:47:56.452329 #57361] DEBUG -- : body: [{"name":"Ayşe","age":18}]
+I, [2022-01-19T09:49:27.101846 #60081]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T09:49:27.106864 #60081]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T09:49:27.106931 #60081] DEBUG -- : body :
+I, [2022-01-19T09:49:27.121912 #60081]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 06:49:27 GMT"}, see debug logs for body
+D, [2022-01-19T09:49:27.121966 #60081] DEBUG -- : body: {"status":"up"}
+I, [2022-01-19T09:49:27.123673 #60081]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T09:49:27.125464 #60081]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T09:49:27.125505 #60081] DEBUG -- : body :
+I, [2022-01-19T09:49:27.127580 #60081]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"27", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 06:49:27 GMT"}, see debug logs for body
+D, [2022-01-19T09:49:27.127627 #60081] DEBUG -- : body: [{"name":"Ayşe","age":18}]
+I, [2022-01-19T09:49:27.204931 #60081]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T09:49:27.206416 #60081]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T09:49:27.206471 #60081] DEBUG -- : body :
+I, [2022-01-19T09:49:27.208904 #60081]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 06:49:27 GMT"}, see debug logs for body
+D, [2022-01-19T09:49:27.208969 #60081] DEBUG -- : body: {"status":"up"}
+I, [2022-01-19T09:49:27.209937 #60081]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T09:49:27.211777 #60081]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T09:49:27.211852 #60081] DEBUG -- : body :
+I, [2022-01-19T09:49:27.214848 #60081]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"27", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 06:49:27 GMT"}, see debug logs for body
+D, [2022-01-19T09:49:27.214932 #60081] DEBUG -- : body: [{"name":"Ayşe","age":18}]
+I, [2022-01-19T09:49:27.216086 #60081]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Posts state A request for Posts API with GET /posts returns a response which has status code 200'
+I, [2022-01-19T09:49:27.217465 #60081]  INFO -- : Sending GET request to path: "/posts" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Posts state"}]}, see debug logs for body
+D, [2022-01-19T09:49:27.217501 #60081] DEBUG -- : body :
+I, [2022-01-19T09:49:27.219478 #60081]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"19", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Wed, 19 Jan 2022 06:49:27 GMT", "X-Content-Type-Options"=>"nosniff"}, see debug logs for body
+D, [2022-01-19T09:49:27.219526 #60081] DEBUG -- : body: 404 page not found
+
+I, [2022-01-19T09:50:10.915710 #60430]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T09:50:10.919944 #60430]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T09:50:10.919996 #60430] DEBUG -- : body :
+I, [2022-01-19T09:50:10.933499 #60430]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 06:50:10 GMT"}, see debug logs for body
+D, [2022-01-19T09:50:10.933583 #60430] DEBUG -- : body: {"status":"up"}
+I, [2022-01-19T09:50:10.934916 #60430]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T09:50:10.936187 #60430]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T09:50:10.936250 #60430] DEBUG -- : body :
+I, [2022-01-19T09:50:10.938514 #60430]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"27", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 06:50:10 GMT"}, see debug logs for body
+D, [2022-01-19T09:50:10.938566 #60430] DEBUG -- : body: [{"name":"Ayşe","age":18}]
+I, [2022-01-19T09:50:11.018916 #60430]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T09:50:11.020241 #60430]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T09:50:11.020285 #60430] DEBUG -- : body :
+I, [2022-01-19T09:50:11.022271 #60430]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 06:50:11 GMT"}, see debug logs for body
+D, [2022-01-19T09:50:11.022314 #60430] DEBUG -- : body: {"status":"up"}
+I, [2022-01-19T09:50:11.023074 #60430]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T09:50:11.024441 #60430]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T09:50:11.024480 #60430] DEBUG -- : body :
+I, [2022-01-19T09:50:11.026732 #60430]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"27", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 06:50:11 GMT"}, see debug logs for body
+D, [2022-01-19T09:50:11.026774 #60430] DEBUG -- : body: [{"name":"Ayşe","age":18}]
+I, [2022-01-19T09:50:11.027522 #60430]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Posts state A request for Posts API with GET /posts returns a response which has status code 200'
+I, [2022-01-19T09:50:11.028708 #60430]  INFO -- : Sending GET request to path: "/posts" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Posts state"}]}, see debug logs for body
+D, [2022-01-19T09:50:11.028778 #60430] DEBUG -- : body :
+I, [2022-01-19T09:50:11.030717 #60430]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"19", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Wed, 19 Jan 2022 06:50:11 GMT", "X-Content-Type-Options"=>"nosniff"}, see debug logs for body
+D, [2022-01-19T09:50:11.030758 #60430] DEBUG -- : body: 404 page not found
+
+I, [2022-01-19T09:54:42.990140 #60860]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T09:54:42.995292 #60860]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T09:54:42.995344 #60860] DEBUG -- : body :
+I, [2022-01-19T09:54:43.010726 #60860]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 06:54:43 GMT"}, see debug logs for body
+D, [2022-01-19T09:54:43.010801 #60860] DEBUG -- : body: {"status":"up"}
+I, [2022-01-19T09:54:43.012651 #60860]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T09:54:43.014273 #60860]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T09:54:43.014323 #60860] DEBUG -- : body :
+I, [2022-01-19T09:54:43.016760 #60860]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"27", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 06:54:43 GMT"}, see debug logs for body
+D, [2022-01-19T09:54:43.016802 #60860] DEBUG -- : body: [{"name":"Ayşe","age":18}]
+I, [2022-01-19T09:54:43.107628 #60860]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T09:54:43.109035 #60860]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T09:54:43.109074 #60860] DEBUG -- : body :
+I, [2022-01-19T09:54:43.111117 #60860]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 06:54:43 GMT"}, see debug logs for body
+D, [2022-01-19T09:54:43.111167 #60860] DEBUG -- : body: {"status":"up"}
+I, [2022-01-19T09:54:43.112460 #60860]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T09:54:43.114044 #60860]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T09:54:43.114095 #60860] DEBUG -- : body :
+I, [2022-01-19T09:54:43.116190 #60860]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"27", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 06:54:43 GMT"}, see debug logs for body
+D, [2022-01-19T09:54:43.116228 #60860] DEBUG -- : body: [{"name":"Ayşe","age":18}]
+I, [2022-01-19T09:54:43.117000 #60860]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Posts state A request for Posts API with GET /posts returns a response which has status code 200'
+I, [2022-01-19T09:54:43.118169 #60860]  INFO -- : Sending GET request to path: "/posts" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Posts state"}]}, see debug logs for body
+D, [2022-01-19T09:54:43.118207 #60860] DEBUG -- : body :
+I, [2022-01-19T09:54:43.120286 #60860]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"62", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 06:54:43 GMT"}, see debug logs for body
+D, [2022-01-19T09:54:43.120344 #60860] DEBUG -- : body: [{"title":"Lorem Ipsum","body":"Lorem ipsum dolar sit amet."}]
+I, [2022-01-19T14:17:05.468080 #67458]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T14:17:05.473372 #67458]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T14:17:05.473427 #67458] DEBUG -- : body :
+I, [2022-01-19T14:17:05.489053 #67458]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 11:17:05 GMT"}, see debug logs for body
+D, [2022-01-19T14:17:05.489135 #67458] DEBUG -- : body: {"status":"up"}
+I, [2022-01-19T14:17:05.490875 #67458]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T14:17:05.492360 #67458]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T14:17:05.492450 #67458] DEBUG -- : body :
+I, [2022-01-19T14:17:05.494800 #67458]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"27", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 11:17:05 GMT"}, see debug logs for body
+D, [2022-01-19T14:17:05.494863 #67458] DEBUG -- : body: [{"name":"Ayşe","age":18}]
+I, [2022-01-19T14:17:05.579479 #67458]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T14:17:05.580781 #67458]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T14:17:05.580820 #67458] DEBUG -- : body :
+I, [2022-01-19T14:17:05.583498 #67458]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 11:17:05 GMT"}, see debug logs for body
+D, [2022-01-19T14:17:05.583538 #67458] DEBUG -- : body: {"status":"up"}
+I, [2022-01-19T14:17:05.586491 #67458]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T14:17:05.587681 #67458]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T14:17:05.587717 #67458] DEBUG -- : body :
+I, [2022-01-19T14:17:05.589569 #67458]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"27", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 11:17:05 GMT"}, see debug logs for body
+D, [2022-01-19T14:17:05.589607 #67458] DEBUG -- : body: [{"name":"Ayşe","age":18}]
+I, [2022-01-19T14:17:05.590422 #67458]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Posts state A request for Posts API with GET /posts returns a response which has status code 200'
+I, [2022-01-19T14:17:05.591517 #67458]  INFO -- : Sending GET request to path: "/posts" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Posts state"}]}, see debug logs for body
+D, [2022-01-19T14:17:05.591553 #67458] DEBUG -- : body :
+I, [2022-01-19T14:17:05.593435 #67458]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"62", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 11:17:05 GMT"}, see debug logs for body
+D, [2022-01-19T14:17:05.593479 #67458] DEBUG -- : body: [{"title":"Lorem Ipsum","body":"Lorem ipsum dolar sit amet."}]
+I, [2022-01-19T14:19:11.736613 #67616]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T14:19:11.741159 #67616]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T14:19:11.741205 #67616] DEBUG -- : body :
+I, [2022-01-19T14:19:11.756207 #67616]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 11:19:11 GMT"}, see debug logs for body
+D, [2022-01-19T14:19:11.756273 #67616] DEBUG -- : body: {"status":"up"}
+I, [2022-01-19T14:19:11.757910 #67616]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T14:19:11.759422 #67616]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T14:19:11.759475 #67616] DEBUG -- : body :
+I, [2022-01-19T14:19:11.761774 #67616]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"27", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 11:19:11 GMT"}, see debug logs for body
+D, [2022-01-19T14:19:11.761847 #67616] DEBUG -- : body: [{"name":"Ayşe","age":18}]
+I, [2022-01-19T14:19:11.839447 #67616]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T14:19:11.840763 #67616]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T14:19:11.840801 #67616] DEBUG -- : body :
+I, [2022-01-19T14:19:11.842881 #67616]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 11:19:11 GMT"}, see debug logs for body
+D, [2022-01-19T14:19:11.842930 #67616] DEBUG -- : body: {"status":"up"}
+I, [2022-01-19T14:19:11.846012 #67616]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T14:19:11.847836 #67616]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T14:19:11.847879 #67616] DEBUG -- : body :
+I, [2022-01-19T14:19:11.850248 #67616]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"27", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 11:19:11 GMT"}, see debug logs for body
+D, [2022-01-19T14:19:11.850307 #67616] DEBUG -- : body: [{"name":"Ayşe","age":18}]
+I, [2022-01-19T14:19:11.851120 #67616]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Posts state A request for Posts API with GET /posts returns a response which has status code 200'
+I, [2022-01-19T14:19:11.852644 #67616]  INFO -- : Sending GET request to path: "/posts" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Posts state"}]}, see debug logs for body
+D, [2022-01-19T14:19:11.852709 #67616] DEBUG -- : body :
+I, [2022-01-19T14:19:11.855097 #67616]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"62", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 11:19:11 GMT"}, see debug logs for body
+D, [2022-01-19T14:19:11.855165 #67616] DEBUG -- : body: [{"title":"Lorem Ipsum","body":"Lorem ipsum dolar sit amet."}]
+I, [2022-01-19T14:27:00.768868 #67988]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T14:27:00.774097 #67988]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T14:27:00.774148 #67988] DEBUG -- : body :
+I, [2022-01-19T14:27:00.789748 #67988]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 11:27:00 GMT"}, see debug logs for body
+D, [2022-01-19T14:27:00.789809 #67988] DEBUG -- : body: {"status":"up"}
+I, [2022-01-19T14:27:00.791529 #67988]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T14:27:00.793194 #67988]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T14:27:00.793269 #67988] DEBUG -- : body :
+I, [2022-01-19T14:27:00.795519 #67988]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"27", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 11:27:00 GMT"}, see debug logs for body
+D, [2022-01-19T14:27:00.795576 #67988] DEBUG -- : body: [{"name":"Ayşe","age":18}]
+I, [2022-01-19T14:27:00.874541 #67988]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T14:27:00.876082 #67988]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T14:27:00.876123 #67988] DEBUG -- : body :
+I, [2022-01-19T14:27:00.878004 #67988]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 11:27:00 GMT"}, see debug logs for body
+D, [2022-01-19T14:27:00.878045 #67988] DEBUG -- : body: {"status":"up"}
+I, [2022-01-19T14:27:00.881039 #67988]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T14:27:00.882539 #67988]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T14:27:00.882580 #67988] DEBUG -- : body :
+I, [2022-01-19T14:27:00.884488 #67988]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"27", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 11:27:00 GMT"}, see debug logs for body
+D, [2022-01-19T14:27:00.884525 #67988] DEBUG -- : body: [{"name":"Ayşe","age":18}]
+I, [2022-01-19T14:27:00.885247 #67988]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Posts state A request for Posts API with GET /posts returns a response which has status code 200'
+I, [2022-01-19T14:27:00.886312 #67988]  INFO -- : Sending GET request to path: "/posts" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Posts state"}]}, see debug logs for body
+D, [2022-01-19T14:27:00.886349 #67988] DEBUG -- : body :
+I, [2022-01-19T14:27:00.888262 #67988]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"62", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 11:27:00 GMT"}, see debug logs for body
+D, [2022-01-19T14:27:00.888309 #67988] DEBUG -- : body: [{"title":"Lorem Ipsum","body":"Lorem ipsum dolar sit amet."}]
+I, [2022-01-19T14:27:24.671369 #68490]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T14:27:24.676039 #68490]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T14:27:24.676100 #68490] DEBUG -- : body :
+I, [2022-01-19T14:27:24.690338 #68490]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 11:27:24 GMT"}, see debug logs for body
+D, [2022-01-19T14:27:24.690416 #68490] DEBUG -- : body: {"status":"up"}
+I, [2022-01-19T14:27:24.694095 #68490]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T14:27:24.696327 #68490]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T14:27:24.696448 #68490] DEBUG -- : body :
+I, [2022-01-19T14:27:24.699156 #68490]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"27", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 11:27:24 GMT"}, see debug logs for body
+D, [2022-01-19T14:27:24.699209 #68490] DEBUG -- : body: [{"name":"Ayşe","age":18}]
+I, [2022-01-19T14:27:24.700142 #68490]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Posts state A request for Posts API with GET /posts returns a response which has status code 200'
+I, [2022-01-19T14:27:24.701649 #68490]  INFO -- : Sending GET request to path: "/posts" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Posts state"}]}, see debug logs for body
+D, [2022-01-19T14:27:24.701688 #68490] DEBUG -- : body :
+I, [2022-01-19T14:27:24.704133 #68490]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"62", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 11:27:24 GMT"}, see debug logs for body
+D, [2022-01-19T14:27:24.704180 #68490] DEBUG -- : body: [{"title":"Lorem Ipsum","body":"Lorem ipsum dolar sit amet."}]
+I, [2022-01-19T14:27:24.787588 #68490]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T14:27:24.788905 #68490]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T14:27:24.788953 #68490] DEBUG -- : body :
+I, [2022-01-19T14:27:24.790995 #68490]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 11:27:24 GMT"}, see debug logs for body
+D, [2022-01-19T14:27:24.791035 #68490] DEBUG -- : body: {"status":"up"}
+I, [2022-01-19T14:27:24.792023 #68490]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T14:27:24.793184 #68490]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T14:27:24.793220 #68490] DEBUG -- : body :
+I, [2022-01-19T14:27:24.795411 #68490]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"27", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 11:27:24 GMT"}, see debug logs for body
+D, [2022-01-19T14:27:24.795470 #68490] DEBUG -- : body: [{"name":"Ayşe","age":18}]
+I, [2022-01-19T14:27:24.796270 #68490]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Posts state A request for Posts API with GET /posts returns a response which has status code 200'
+I, [2022-01-19T14:27:24.797527 #68490]  INFO -- : Sending GET request to path: "/posts" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Posts state"}]}, see debug logs for body
+D, [2022-01-19T14:27:24.797563 #68490] DEBUG -- : body :
+I, [2022-01-19T14:27:24.799438 #68490]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"62", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 11:27:24 GMT"}, see debug logs for body
+D, [2022-01-19T14:27:24.799475 #68490] DEBUG -- : body: [{"title":"Lorem Ipsum","body":"Lorem ipsum dolar sit amet."}]
+I, [2022-01-19T14:42:36.984588 #69271]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T14:42:36.990248 #69271]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T14:42:36.990305 #69271] DEBUG -- : body :
+I, [2022-01-19T14:42:37.005784 #69271]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 11:42:37 GMT"}, see debug logs for body
+D, [2022-01-19T14:42:37.005845 #69271] DEBUG -- : body: {"status":"up"}
+I, [2022-01-19T14:42:37.007593 #69271]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T14:42:37.009092 #69271]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T14:42:37.009157 #69271] DEBUG -- : body :
+I, [2022-01-19T14:42:37.011237 #69271]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"27", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 11:42:37 GMT"}, see debug logs for body
+D, [2022-01-19T14:42:37.011280 #69271] DEBUG -- : body: [{"name":"Ayşe","age":18}]
+I, [2022-01-19T14:42:37.103681 #69271]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T14:42:37.105086 #69271]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T14:42:37.105132 #69271] DEBUG -- : body :
+I, [2022-01-19T14:42:37.107198 #69271]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 11:42:37 GMT"}, see debug logs for body
+D, [2022-01-19T14:42:37.107241 #69271] DEBUG -- : body: {"status":"up"}
+I, [2022-01-19T14:42:37.110295 #69271]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T14:42:37.111634 #69271]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T14:42:37.111672 #69271] DEBUG -- : body :
+I, [2022-01-19T14:42:37.113581 #69271]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"27", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 11:42:37 GMT"}, see debug logs for body
+D, [2022-01-19T14:42:37.113645 #69271] DEBUG -- : body: [{"name":"Ayşe","age":18}]
+I, [2022-01-19T14:42:37.114397 #69271]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Posts state A request for Posts API with GET /posts returns a response which has status code 200'
+I, [2022-01-19T14:42:37.115626 #69271]  INFO -- : Sending GET request to path: "/posts" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Posts state"}]}, see debug logs for body
+D, [2022-01-19T14:42:37.115663 #69271] DEBUG -- : body :
+I, [2022-01-19T14:42:37.117639 #69271]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"62", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 11:42:37 GMT"}, see debug logs for body
+D, [2022-01-19T14:42:37.117686 #69271] DEBUG -- : body: [{"title":"Lorem Ipsum","body":"Lorem ipsum dolar sit amet."}]
+I, [2022-01-19T14:43:37.822890 #69488]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T14:43:37.827864 #69488]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T14:43:37.827918 #69488] DEBUG -- : body :
+I, [2022-01-19T14:43:37.843359 #69488]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"34", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 11:43:37 GMT"}, see debug logs for body
+D, [2022-01-19T14:43:37.843421 #69488] DEBUG -- : body: {"status":"up","since":"32 hours"}
+I, [2022-01-19T14:43:37.845125 #69488]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T14:43:37.846551 #69488]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T14:43:37.846602 #69488] DEBUG -- : body :
+I, [2022-01-19T14:43:37.848697 #69488]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"27", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 11:43:37 GMT"}, see debug logs for body
+D, [2022-01-19T14:43:37.848763 #69488] DEBUG -- : body: [{"name":"Ayşe","age":18}]
+I, [2022-01-19T14:43:37.922311 #69488]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T14:43:37.923622 #69488]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T14:43:37.923664 #69488] DEBUG -- : body :
+I, [2022-01-19T14:43:37.925689 #69488]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"34", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 11:43:37 GMT"}, see debug logs for body
+D, [2022-01-19T14:43:37.925733 #69488] DEBUG -- : body: {"status":"up","since":"32 hours"}
+I, [2022-01-19T14:43:37.926529 #69488]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T14:43:37.927732 #69488]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T14:43:37.927771 #69488] DEBUG -- : body :
+I, [2022-01-19T14:43:37.929527 #69488]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"27", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 11:43:37 GMT"}, see debug logs for body
+D, [2022-01-19T14:43:37.929567 #69488] DEBUG -- : body: [{"name":"Ayşe","age":18}]
+I, [2022-01-19T14:43:37.930367 #69488]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Posts state A request for Posts API with GET /posts returns a response which has status code 200'
+I, [2022-01-19T14:43:37.931505 #69488]  INFO -- : Sending GET request to path: "/posts" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Posts state"}]}, see debug logs for body
+D, [2022-01-19T14:43:37.931543 #69488] DEBUG -- : body :
+I, [2022-01-19T14:43:37.933532 #69488]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"62", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 11:43:37 GMT"}, see debug logs for body
+D, [2022-01-19T14:43:37.933572 #69488] DEBUG -- : body: [{"title":"Lorem Ipsum","body":"Lorem ipsum dolar sit amet."}]
+I, [2022-01-19T15:22:57.634871 #70454]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T15:22:57.640514 #70454]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T15:22:57.640567 #70454] DEBUG -- : body :
+I, [2022-01-19T15:22:57.656664 #70454]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"34", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 12:22:57 GMT"}, see debug logs for body
+D, [2022-01-19T15:22:57.656731 #70454] DEBUG -- : body: {"status":"up","since":"32 hours"}
+I, [2022-01-19T15:22:57.658664 #70454]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T15:22:57.660506 #70454]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T15:22:57.660577 #70454] DEBUG -- : body :
+I, [2022-01-19T15:22:57.663922 #70454]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"27", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 12:22:57 GMT"}, see debug logs for body
+D, [2022-01-19T15:22:57.664029 #70454] DEBUG -- : body: [{"name":"Ayşe","age":18}]
+I, [2022-01-19T15:22:57.767423 #70454]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T15:22:57.769008 #70454]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T15:22:57.769056 #70454] DEBUG -- : body :
+I, [2022-01-19T15:22:57.771129 #70454]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"34", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 12:22:57 GMT"}, see debug logs for body
+D, [2022-01-19T15:22:57.771172 #70454] DEBUG -- : body: {"status":"up","since":"32 hours"}
+I, [2022-01-19T15:22:57.771979 #70454]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T15:22:57.773232 #70454]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T15:22:57.773298 #70454] DEBUG -- : body :
+I, [2022-01-19T15:22:57.775761 #70454]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"27", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 12:22:57 GMT"}, see debug logs for body
+D, [2022-01-19T15:22:57.775848 #70454] DEBUG -- : body: [{"name":"Ayşe","age":18}]
+I, [2022-01-19T15:22:57.776826 #70454]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Posts state A request for Posts API with GET /posts returns a response which has status code 200'
+I, [2022-01-19T15:22:57.778347 #70454]  INFO -- : Sending GET request to path: "/posts" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Posts state"}]}, see debug logs for body
+D, [2022-01-19T15:22:57.778390 #70454] DEBUG -- : body :
+I, [2022-01-19T15:22:57.780678 #70454]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"62", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 12:22:57 GMT"}, see debug logs for body
+D, [2022-01-19T15:22:57.780737 #70454] DEBUG -- : body: [{"title":"Lorem Ipsum","body":"Lorem ipsum dolar sit amet."}]
+I, [2022-01-19T15:29:33.303589 #70852]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T15:29:33.308160 #70852]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T15:29:33.308214 #70852] DEBUG -- : body :
+I, [2022-01-19T15:29:33.322113 #70852]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"34", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 12:29:33 GMT"}, see debug logs for body
+D, [2022-01-19T15:29:33.322183 #70852] DEBUG -- : body: {"status":"up","since":"32 hours"}
+I, [2022-01-19T15:29:33.323804 #70852]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T15:29:33.325246 #70852]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T15:29:33.325301 #70852] DEBUG -- : body :
+I, [2022-01-19T15:29:33.327529 #70852]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"27", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 12:29:33 GMT"}, see debug logs for body
+D, [2022-01-19T15:29:33.327590 #70852] DEBUG -- : body: [{"name":"Ayşe","age":18}]
+I, [2022-01-19T15:29:33.413935 #70852]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T15:29:33.415601 #70852]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T15:29:33.415681 #70852] DEBUG -- : body :
+I, [2022-01-19T15:29:33.418334 #70852]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"34", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 12:29:33 GMT"}, see debug logs for body
+D, [2022-01-19T15:29:33.418392 #70852] DEBUG -- : body: {"status":"up","since":"32 hours"}
+I, [2022-01-19T15:29:33.419187 #70852]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T15:29:33.420416 #70852]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T15:29:33.420451 #70852] DEBUG -- : body :
+I, [2022-01-19T15:29:33.422517 #70852]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"27", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 12:29:33 GMT"}, see debug logs for body
+D, [2022-01-19T15:29:33.422564 #70852] DEBUG -- : body: [{"name":"Ayşe","age":18}]
+I, [2022-01-19T15:29:33.423371 #70852]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Posts state A request for Posts API with GET /posts returns a response which has status code 200'
+I, [2022-01-19T15:29:33.424788 #70852]  INFO -- : Sending GET request to path: "/posts" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Posts state"}]}, see debug logs for body
+D, [2022-01-19T15:29:33.424826 #70852] DEBUG -- : body :
+I, [2022-01-19T15:29:33.427034 #70852]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"62", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 12:29:33 GMT"}, see debug logs for body
+D, [2022-01-19T15:29:33.427079 #70852] DEBUG -- : body: [{"title":"Lorem Ipsum","body":"Lorem ipsum dolar sit amet."}]
+I, [2022-01-19T15:30:15.579437 #71309]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T15:30:15.584703 #71309]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T15:30:15.584765 #71309] DEBUG -- : body :
+I, [2022-01-19T15:30:15.598146 #71309]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"34", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 12:30:15 GMT"}, see debug logs for body
+D, [2022-01-19T15:30:15.598220 #71309] DEBUG -- : body: {"status":"up","since":"32 hours"}
+I, [2022-01-19T15:30:15.599615 #71309]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T15:30:15.601074 #71309]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T15:30:15.601126 #71309] DEBUG -- : body :
+I, [2022-01-19T15:30:15.603678 #71309]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"27", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 12:30:15 GMT"}, see debug logs for body
+D, [2022-01-19T15:30:15.603733 #71309] DEBUG -- : body: [{"name":"Ayşe","age":18}]
+I, [2022-01-19T15:30:15.687299 #71309]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T15:30:15.688855 #71309]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T15:30:15.688924 #71309] DEBUG -- : body :
+I, [2022-01-19T15:30:15.691220 #71309]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"34", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 12:30:15 GMT"}, see debug logs for body
+D, [2022-01-19T15:30:15.691266 #71309] DEBUG -- : body: {"status":"up","since":"32 hours"}
+I, [2022-01-19T15:30:15.692055 #71309]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T15:30:15.693358 #71309]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T15:30:15.693418 #71309] DEBUG -- : body :
+I, [2022-01-19T15:30:15.695330 #71309]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"27", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 12:30:15 GMT"}, see debug logs for body
+D, [2022-01-19T15:30:15.695373 #71309] DEBUG -- : body: [{"name":"Ayşe","age":18}]
+I, [2022-01-19T15:30:15.696160 #71309]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Posts state A request for Posts API with GET /posts returns a response which has status code 200'
+I, [2022-01-19T15:30:15.697425 #71309]  INFO -- : Sending GET request to path: "/posts" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Posts state"}]}, see debug logs for body
+D, [2022-01-19T15:30:15.697465 #71309] DEBUG -- : body :
+I, [2022-01-19T15:30:15.699892 #71309]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"62", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 12:30:15 GMT"}, see debug logs for body
+D, [2022-01-19T15:30:15.699973 #71309] DEBUG -- : body: [{"title":"Lorem Ipsum","body":"Lorem ipsum dolar sit amet."}]
+I, [2022-01-19T15:50:08.962259 #71751]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T15:50:08.968124 #71751]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T15:50:08.968181 #71751] DEBUG -- : body :
+I, [2022-01-19T15:50:08.981468 #71751]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"34", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 12:50:08 GMT"}, see debug logs for body
+D, [2022-01-19T15:50:08.981539 #71751] DEBUG -- : body: {"status":"up","since":"32 hours"}
+I, [2022-01-19T15:50:08.982967 #71751]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T15:50:08.984499 #71751]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T15:50:08.984588 #71751] DEBUG -- : body :
+I, [2022-01-19T15:50:08.986950 #71751]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"27", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 12:50:08 GMT"}, see debug logs for body
+D, [2022-01-19T15:50:08.986998 #71751] DEBUG -- : body: [{"name":"Ayşe","age":18}]
+I, [2022-01-19T15:50:09.063101 #71751]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T15:50:09.064977 #71751]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T15:50:09.065046 #71751] DEBUG -- : body :
+I, [2022-01-19T15:50:09.067167 #71751]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"34", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 12:50:09 GMT"}, see debug logs for body
+D, [2022-01-19T15:50:09.067214 #71751] DEBUG -- : body: {"status":"up","since":"32 hours"}
+I, [2022-01-19T15:50:09.067999 #71751]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T15:50:09.069085 #71751]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T15:50:09.069128 #71751] DEBUG -- : body :
+I, [2022-01-19T15:50:09.070913 #71751]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"27", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 12:50:09 GMT"}, see debug logs for body
+D, [2022-01-19T15:50:09.070954 #71751] DEBUG -- : body: [{"name":"Ayşe","age":18}]
+I, [2022-01-19T15:50:09.074726 #71751]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Posts state A request for Posts API with GET /posts returns a response which has status code 200'
+I, [2022-01-19T15:50:09.076277 #71751]  INFO -- : Sending GET request to path: "/posts" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Posts state"}]}, see debug logs for body
+D, [2022-01-19T15:50:09.076324 #71751] DEBUG -- : body :
+I, [2022-01-19T15:50:09.078197 #71751]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"62", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 12:50:09 GMT"}, see debug logs for body
+D, [2022-01-19T15:50:09.078241 #71751] DEBUG -- : body: [{"title":"Lorem Ipsum","body":"Lorem ipsum dolar sit amet."}]
+I, [2022-01-19T15:51:11.154991 #72382]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T15:51:11.159443 #72382]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T15:51:11.159502 #72382] DEBUG -- : body :
+I, [2022-01-19T15:51:11.174367 #72382]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"34", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 12:51:11 GMT"}, see debug logs for body
+D, [2022-01-19T15:51:11.174445 #72382] DEBUG -- : body: {"status":"up","since":"32 hours"}
+I, [2022-01-19T15:51:11.176011 #72382]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T15:51:11.177682 #72382]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T15:51:11.177731 #72382] DEBUG -- : body :
+I, [2022-01-19T15:51:11.180648 #72382]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"27", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 12:51:11 GMT"}, see debug logs for body
+D, [2022-01-19T15:51:11.180748 #72382] DEBUG -- : body: [{"name":"Ayşe","age":18}]
+I, [2022-01-19T15:51:11.268287 #72382]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T15:51:11.269850 #72382]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T15:51:11.269898 #72382] DEBUG -- : body :
+I, [2022-01-19T15:51:11.272113 #72382]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"34", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 12:51:11 GMT"}, see debug logs for body
+D, [2022-01-19T15:51:11.272178 #72382] DEBUG -- : body: {"status":"up","since":"32 hours"}
+I, [2022-01-19T15:51:11.273069 #72382]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T15:51:11.274350 #72382]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T15:51:11.274399 #72382] DEBUG -- : body :
+I, [2022-01-19T15:51:11.276511 #72382]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"27", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 12:51:11 GMT"}, see debug logs for body
+D, [2022-01-19T15:51:11.276597 #72382] DEBUG -- : body: [{"name":"Ayşe","age":18}]
+I, [2022-01-19T16:05:34.226245 #73625]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T16:05:34.231328 #73625]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T16:05:34.231377 #73625] DEBUG -- : body :
+I, [2022-01-19T16:05:34.245063 #73625]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"34", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 13:05:34 GMT"}, see debug logs for body
+D, [2022-01-19T16:05:34.245126 #73625] DEBUG -- : body: {"status":"up","since":"32 hours"}
+I, [2022-01-19T16:05:34.246505 #73625]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T16:05:34.248093 #73625]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T16:05:34.248149 #73625] DEBUG -- : body :
+I, [2022-01-19T16:05:34.250260 #73625]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"27", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 13:05:34 GMT"}, see debug logs for body
+D, [2022-01-19T16:05:34.250309 #73625] DEBUG -- : body: [{"name":"Ayşe","age":18}]
+I, [2022-01-19T16:10:43.222949 #74158]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T16:10:43.227352 #74158]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T16:10:43.227401 #74158] DEBUG -- : body :
+I, [2022-01-19T16:10:43.240165 #74158]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"34", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 13:10:43 GMT"}, see debug logs for body
+D, [2022-01-19T16:10:43.240236 #74158] DEBUG -- : body: {"status":"up","since":"32 hours"}
+I, [2022-01-19T16:10:43.241753 #74158]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T16:10:43.243123 #74158]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T16:10:43.243216 #74158] DEBUG -- : body :
+I, [2022-01-19T16:10:43.245261 #74158]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"27", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 13:10:43 GMT"}, see debug logs for body
+D, [2022-01-19T16:10:43.245317 #74158] DEBUG -- : body: [{"name":"Ayşe","age":18}]
+I, [2022-01-19T17:06:05.310446 #75591]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T17:06:05.315935 #75591]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T17:06:05.315993 #75591] DEBUG -- : body :
+I, [2022-01-19T17:06:05.333241 #75591]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"34", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:06:05 GMT"}, see debug logs for body
+D, [2022-01-19T17:06:05.333368 #75591] DEBUG -- : body: {"status":"up","since":"32 hours"}
+I, [2022-01-19T17:06:05.335091 #75591]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T17:06:05.336857 #75591]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T17:06:05.336922 #75591] DEBUG -- : body :
+I, [2022-01-19T17:06:05.339623 #75591]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"27", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:06:05 GMT"}, see debug logs for body
+D, [2022-01-19T17:06:05.339685 #75591] DEBUG -- : body: [{"name":"Ayşe","age":18}]
+I, [2022-01-19T17:06:05.343187 #75591]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Posts state A request for Posts API with GET /posts returns a response which has status code 200'
+I, [2022-01-19T17:06:05.344746 #75591]  INFO -- : Sending GET request to path: "/posts" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Posts state"}]}, see debug logs for body
+D, [2022-01-19T17:06:05.344793 #75591] DEBUG -- : body :
+I, [2022-01-19T17:06:05.347587 #75591]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"62", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:06:05 GMT"}, see debug logs for body
+D, [2022-01-19T17:06:05.347651 #75591] DEBUG -- : body: [{"title":"Lorem Ipsum","body":"Lorem ipsum dolar sit amet."}]
+I, [2022-01-19T17:06:34.072250 #75749]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T17:06:34.076692 #75749]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T17:06:34.076757 #75749] DEBUG -- : body :
+I, [2022-01-19T17:06:34.091276 #75749]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"34", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:06:34 GMT"}, see debug logs for body
+D, [2022-01-19T17:06:34.091359 #75749] DEBUG -- : body: {"status":"up","since":"32 hours"}
+I, [2022-01-19T17:06:34.092921 #75749]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T17:06:34.094647 #75749]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T17:06:34.094697 #75749] DEBUG -- : body :
+I, [2022-01-19T17:06:34.096924 #75749]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"27", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:06:34 GMT"}, see debug logs for body
+D, [2022-01-19T17:06:34.096973 #75749] DEBUG -- : body: [{"name":"Ayşe","age":18}]
+I, [2022-01-19T17:06:34.100007 #75749]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Posts state A request for Posts API with GET /posts returns a response which has status code 200'
+I, [2022-01-19T17:06:34.102018 #75749]  INFO -- : Sending GET request to path: "/posts" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Posts state"}]}, see debug logs for body
+D, [2022-01-19T17:06:34.102086 #75749] DEBUG -- : body :
+I, [2022-01-19T17:06:34.104303 #75749]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"62", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:06:34 GMT"}, see debug logs for body
+D, [2022-01-19T17:06:34.104356 #75749] DEBUG -- : body: [{"title":"Lorem Ipsum","body":"Lorem ipsum dolar sit amet."}]
+I, [2022-01-19T17:07:49.919514 #76016]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T17:07:49.925665 #76016]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T17:07:49.925740 #76016] DEBUG -- : body :
+I, [2022-01-19T17:07:49.949179 #76016]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"34", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:07:49 GMT"}, see debug logs for body
+D, [2022-01-19T17:07:49.949329 #76016] DEBUG -- : body: {"status":"up","since":"32 hours"}
+I, [2022-01-19T17:07:49.951854 #76016]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T17:07:49.953672 #76016]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T17:07:49.953726 #76016] DEBUG -- : body :
+I, [2022-01-19T17:07:49.957129 #76016]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"27", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:07:49 GMT"}, see debug logs for body
+D, [2022-01-19T17:07:49.957206 #76016] DEBUG -- : body: [{"name":"Ayşe","age":18}]
+I, [2022-01-19T17:07:49.961052 #76016]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Posts state A request for Posts API with GET /posts returns a response which has status code 200'
+I, [2022-01-19T17:07:49.962780 #76016]  INFO -- : Sending GET request to path: "/posts" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Posts state"}]}, see debug logs for body
+D, [2022-01-19T17:07:49.962838 #76016] DEBUG -- : body :
+I, [2022-01-19T17:07:49.966044 #76016]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"62", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:07:49 GMT"}, see debug logs for body
+D, [2022-01-19T17:07:49.966135 #76016] DEBUG -- : body: [{"title":"Lorem Ipsum","body":"Lorem ipsum dolar sit amet."}]
+I, [2022-01-19T17:08:46.181049 #76827]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T17:08:46.188290 #76827]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T17:08:46.188360 #76827] DEBUG -- : body :
+I, [2022-01-19T17:08:46.204700 #76827]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"34", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:08:46 GMT"}, see debug logs for body
+D, [2022-01-19T17:08:46.204763 #76827] DEBUG -- : body: {"status":"up","since":"32 hours"}
+I, [2022-01-19T17:08:46.206398 #76827]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T17:08:46.207804 #76827]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T17:08:46.207858 #76827] DEBUG -- : body :
+I, [2022-01-19T17:08:46.210637 #76827]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"27", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:08:46 GMT"}, see debug logs for body
+D, [2022-01-19T17:08:46.210733 #76827] DEBUG -- : body: [{"name":"Ayşe","age":18}]
+I, [2022-01-19T17:08:46.214022 #76827]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Posts state A request for Posts API with GET /posts returns a response which has status code 200'
+I, [2022-01-19T17:08:46.215938 #76827]  INFO -- : Sending GET request to path: "/posts" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Posts state"}]}, see debug logs for body
+D, [2022-01-19T17:08:46.216018 #76827] DEBUG -- : body :
+I, [2022-01-19T17:08:46.218805 #76827]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"62", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:08:46 GMT"}, see debug logs for body
+D, [2022-01-19T17:08:46.218866 #76827] DEBUG -- : body: [{"title":"Lorem Ipsum","body":"Lorem ipsum dolar sit amet."}]
+I, [2022-01-19T17:09:55.739402 #76979]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T17:09:55.744755 #76979]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T17:09:55.744835 #76979] DEBUG -- : body :
+I, [2022-01-19T17:09:55.761570 #76979]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"34", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:09:55 GMT"}, see debug logs for body
+D, [2022-01-19T17:09:55.761634 #76979] DEBUG -- : body: {"status":"up","since":"32 hours"}
+I, [2022-01-19T17:09:55.763575 #76979]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T17:09:55.765517 #76979]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T17:09:55.765572 #76979] DEBUG -- : body :
+I, [2022-01-19T17:09:55.767839 #76979]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"27", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:09:55 GMT"}, see debug logs for body
+D, [2022-01-19T17:09:55.767890 #76979] DEBUG -- : body: [{"name":"Ayşe","age":18}]
+I, [2022-01-19T17:09:55.772623 #76979]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Posts state A request for Posts API with GET /posts returns a response which has status code 200'
+I, [2022-01-19T17:09:55.774276 #76979]  INFO -- : Sending GET request to path: "/posts" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Posts state"}]}, see debug logs for body
+D, [2022-01-19T17:09:55.774335 #76979] DEBUG -- : body :
+I, [2022-01-19T17:09:55.777093 #76979]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"62", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:09:55 GMT"}, see debug logs for body
+D, [2022-01-19T17:09:55.777157 #76979] DEBUG -- : body: [{"title":"Lorem Ipsum","body":"Lorem ipsum dolar sit amet."}]
+I, [2022-01-19T17:10:14.505586 #77074]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T17:10:14.510500 #77074]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T17:10:14.510552 #77074] DEBUG -- : body :
+I, [2022-01-19T17:10:14.524076 #77074]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"34", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:10:14 GMT"}, see debug logs for body
+D, [2022-01-19T17:10:14.524153 #77074] DEBUG -- : body: {"status":"up","since":"32 hours"}
+I, [2022-01-19T17:10:14.525676 #77074]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T17:10:14.527654 #77074]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T17:10:14.527718 #77074] DEBUG -- : body :
+I, [2022-01-19T17:10:14.530072 #77074]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"41", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:10:14 GMT"}, see debug logs for body
+D, [2022-01-19T17:10:14.530156 #77074] DEBUG -- : body: [{"name":"Ayşe","age":18,"lastname":""}]
+I, [2022-01-19T17:10:14.531199 #77074]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Posts state A request for Posts API with GET /posts returns a response which has status code 200'
+I, [2022-01-19T17:10:14.532853 #77074]  INFO -- : Sending GET request to path: "/posts" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Posts state"}]}, see debug logs for body
+D, [2022-01-19T17:10:14.532921 #77074] DEBUG -- : body :
+I, [2022-01-19T17:10:14.535444 #77074]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"62", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:10:14 GMT"}, see debug logs for body
+D, [2022-01-19T17:10:14.535508 #77074] DEBUG -- : body: [{"title":"Lorem Ipsum","body":"Lorem ipsum dolar sit amet."}]
+I, [2022-01-19T17:12:46.666621 #77934]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T17:12:46.671640 #77934]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T17:12:46.671694 #77934] DEBUG -- : body :
+I, [2022-01-19T17:12:46.686659 #77934]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"34", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:12:46 GMT"}, see debug logs for body
+D, [2022-01-19T17:12:46.686737 #77934] DEBUG -- : body: {"status":"up","since":"32 hours"}
+I, [2022-01-19T17:12:46.688399 #77934]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T17:12:46.689720 #77934]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T17:12:46.689766 #77934] DEBUG -- : body :
+I, [2022-01-19T17:12:46.692138 #77934]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"41", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:12:46 GMT"}, see debug logs for body
+D, [2022-01-19T17:12:46.692222 #77934] DEBUG -- : body: [{"name":"Ayşe","age":18,"lastname":""}]
+I, [2022-01-19T17:12:46.693149 #77934]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Posts state A request for Posts API with GET /posts returns a response which has status code 200'
+I, [2022-01-19T17:12:46.694988 #77934]  INFO -- : Sending GET request to path: "/posts" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Posts state"}]}, see debug logs for body
+D, [2022-01-19T17:12:46.695055 #77934] DEBUG -- : body :
+I, [2022-01-19T17:12:46.697684 #77934]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"62", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:12:46 GMT"}, see debug logs for body
+D, [2022-01-19T17:12:46.697752 #77934] DEBUG -- : body: [{"title":"Lorem Ipsum","body":"Lorem ipsum dolar sit amet."}]
+I, [2022-01-19T17:23:28.808885 #78900]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T17:23:28.814659 #78900]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T17:23:28.814761 #78900] DEBUG -- : body :
+I, [2022-01-19T17:23:28.830964 #78900]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"34", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:23:28 GMT"}, see debug logs for body
+D, [2022-01-19T17:23:28.831038 #78900] DEBUG -- : body: {"status":"up","since":"32 hours"}
+I, [2022-01-19T17:23:28.833280 #78900]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T17:23:28.834698 #78900]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T17:23:28.834742 #78900] DEBUG -- : body :
+I, [2022-01-19T17:23:28.836860 #78900]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"41", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:23:28 GMT"}, see debug logs for body
+D, [2022-01-19T17:23:28.836908 #78900] DEBUG -- : body: [{"name":"Ayşe","age":18,"lastname":""}]
+I, [2022-01-19T17:23:28.837737 #78900]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Posts state A request for Posts API with GET /posts returns a response which has status code 200'
+I, [2022-01-19T17:23:28.839150 #78900]  INFO -- : Sending GET request to path: "/posts" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Posts state"}]}, see debug logs for body
+D, [2022-01-19T17:23:28.839202 #78900] DEBUG -- : body :
+I, [2022-01-19T17:23:28.841257 #78900]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"62", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:23:28 GMT"}, see debug logs for body
+D, [2022-01-19T17:23:28.841302 #78900] DEBUG -- : body: [{"title":"Lorem Ipsum","body":"Lorem ipsum dolar sit amet."}]
+I, [2022-01-19T17:23:28.842106 #78900]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Pongs state A request for Pong API with GET /pong returns a response which has status code 200'
+I, [2022-01-19T17:23:28.843533 #78900]  INFO -- : Sending GET request to path: "/pong" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Pongs state"}]}, see debug logs for body
+D, [2022-01-19T17:23:28.843590 #78900] DEBUG -- : body :
+I, [2022-01-19T17:23:28.845666 #78900]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"17", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:23:28 GMT"}, see debug logs for body
+D, [2022-01-19T17:23:28.845814 #78900] DEBUG -- : body: "{"msg": "ping"}"
+I, [2022-01-19T17:23:57.960647 #79006]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T17:23:57.965229 #79006]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T17:23:57.965281 #79006] DEBUG -- : body :
+I, [2022-01-19T17:23:57.978803 #79006]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"34", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:23:57 GMT"}, see debug logs for body
+D, [2022-01-19T17:23:57.978866 #79006] DEBUG -- : body: {"status":"up","since":"32 hours"}
+I, [2022-01-19T17:23:57.980268 #79006]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T17:23:57.982042 #79006]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T17:23:57.982105 #79006] DEBUG -- : body :
+I, [2022-01-19T17:23:57.984408 #79006]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"41", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:23:57 GMT"}, see debug logs for body
+D, [2022-01-19T17:23:57.984459 #79006] DEBUG -- : body: [{"name":"Ayşe","age":18,"lastname":""}]
+I, [2022-01-19T17:23:57.985261 #79006]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Posts state A request for Posts API with GET /posts returns a response which has status code 200'
+I, [2022-01-19T17:23:57.986879 #79006]  INFO -- : Sending GET request to path: "/posts" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Posts state"}]}, see debug logs for body
+D, [2022-01-19T17:23:57.986931 #79006] DEBUG -- : body :
+I, [2022-01-19T17:23:57.989168 #79006]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"62", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:23:57 GMT"}, see debug logs for body
+D, [2022-01-19T17:23:57.989229 #79006] DEBUG -- : body: [{"title":"Lorem Ipsum","body":"Lorem ipsum dolar sit amet."}]
+I, [2022-01-19T17:23:57.990213 #79006]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Pongs state A request for Pong API with GET /pong returns a response which has status code 200'
+I, [2022-01-19T17:23:57.991839 #79006]  INFO -- : Sending GET request to path: "/pong" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Pongs state"}]}, see debug logs for body
+D, [2022-01-19T17:23:57.991903 #79006] DEBUG -- : body :
+I, [2022-01-19T17:23:57.994325 #79006]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"17", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:23:57 GMT"}, see debug logs for body
+D, [2022-01-19T17:23:57.994377 #79006] DEBUG -- : body: "{"msg": "ping"}"
+I, [2022-01-19T17:24:01.520837 #79089]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T17:24:01.526364 #79089]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T17:24:01.526453 #79089] DEBUG -- : body :
+I, [2022-01-19T17:24:01.542196 #79089]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"34", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:24:01 GMT"}, see debug logs for body
+D, [2022-01-19T17:24:01.542309 #79089] DEBUG -- : body: {"status":"up","since":"32 hours"}
+I, [2022-01-19T17:24:01.543928 #79089]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T17:24:01.546021 #79089]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T17:24:01.546110 #79089] DEBUG -- : body :
+I, [2022-01-19T17:24:01.549685 #79089]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"41", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:24:01 GMT"}, see debug logs for body
+D, [2022-01-19T17:24:01.549823 #79089] DEBUG -- : body: [{"name":"Ayşe","age":18,"lastname":""}]
+I, [2022-01-19T17:24:01.550971 #79089]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Posts state A request for Posts API with GET /posts returns a response which has status code 200'
+I, [2022-01-19T17:24:01.552963 #79089]  INFO -- : Sending GET request to path: "/posts" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Posts state"}]}, see debug logs for body
+D, [2022-01-19T17:24:01.553032 #79089] DEBUG -- : body :
+I, [2022-01-19T17:24:01.556126 #79089]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"62", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:24:01 GMT"}, see debug logs for body
+D, [2022-01-19T17:24:01.556197 #79089] DEBUG -- : body: [{"title":"Lorem Ipsum","body":"Lorem ipsum dolar sit amet."}]
+I, [2022-01-19T17:24:01.556996 #79089]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Pongs state A request for Pong API with GET /pong returns a response which has status code 200'
+I, [2022-01-19T17:24:01.558633 #79089]  INFO -- : Sending GET request to path: "/pong" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Pongs state"}]}, see debug logs for body
+D, [2022-01-19T17:24:01.558697 #79089] DEBUG -- : body :
+I, [2022-01-19T17:24:01.561052 #79089]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"17", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:24:01 GMT"}, see debug logs for body
+D, [2022-01-19T17:24:01.561106 #79089] DEBUG -- : body: "{"msg": "ping"}"
+I, [2022-01-19T17:24:28.970128 #79263]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T17:24:28.974853 #79263]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T17:24:28.974918 #79263] DEBUG -- : body :
+I, [2022-01-19T17:24:28.987909 #79263]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"34", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:24:28 GMT"}, see debug logs for body
+D, [2022-01-19T17:24:28.987973 #79263] DEBUG -- : body: {"status":"up","since":"32 hours"}
+I, [2022-01-19T17:24:28.989339 #79263]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T17:24:28.990929 #79263]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T17:24:28.991022 #79263] DEBUG -- : body :
+I, [2022-01-19T17:24:28.993643 #79263]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"41", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:24:28 GMT"}, see debug logs for body
+D, [2022-01-19T17:24:28.993706 #79263] DEBUG -- : body: [{"name":"Ayşe","age":18,"lastname":""}]
+I, [2022-01-19T17:24:28.994596 #79263]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Posts state A request for Posts API with GET /posts returns a response which has status code 200'
+I, [2022-01-19T17:24:28.996414 #79263]  INFO -- : Sending GET request to path: "/posts" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Posts state"}]}, see debug logs for body
+D, [2022-01-19T17:24:28.996549 #79263] DEBUG -- : body :
+I, [2022-01-19T17:24:28.999205 #79263]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"62", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:24:28 GMT"}, see debug logs for body
+D, [2022-01-19T17:24:28.999257 #79263] DEBUG -- : body: [{"title":"Lorem Ipsum","body":"Lorem ipsum dolar sit amet."}]
+I, [2022-01-19T17:24:29.000081 #79263]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Pongs state A request for Pong API with GET /pong returns a response which has status code 200'
+I, [2022-01-19T17:24:29.001168 #79263]  INFO -- : Sending GET request to path: "/pong" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Pongs state"}]}, see debug logs for body
+D, [2022-01-19T17:24:29.001213 #79263] DEBUG -- : body :
+I, [2022-01-19T17:24:29.003008 #79263]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"17", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:24:29 GMT"}, see debug logs for body
+D, [2022-01-19T17:24:29.003052 #79263] DEBUG -- : body: "{"msg": "ping"}"
+I, [2022-01-19T17:24:54.587142 #79345]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T17:24:54.591807 #79345]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T17:24:54.591897 #79345] DEBUG -- : body :
+I, [2022-01-19T17:24:54.604545 #79345]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"34", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:24:54 GMT"}, see debug logs for body
+D, [2022-01-19T17:24:54.604614 #79345] DEBUG -- : body: {"status":"up","since":"32 hours"}
+I, [2022-01-19T17:24:54.606156 #79345]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T17:24:54.607901 #79345]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T17:24:54.608006 #79345] DEBUG -- : body :
+I, [2022-01-19T17:24:54.610688 #79345]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"41", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:24:54 GMT"}, see debug logs for body
+D, [2022-01-19T17:24:54.610737 #79345] DEBUG -- : body: [{"name":"Ayşe","age":18,"lastname":""}]
+I, [2022-01-19T17:24:54.611514 #79345]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Posts state A request for Posts API with GET /posts returns a response which has status code 200'
+I, [2022-01-19T17:24:54.612816 #79345]  INFO -- : Sending GET request to path: "/posts" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Posts state"}]}, see debug logs for body
+D, [2022-01-19T17:24:54.612858 #79345] DEBUG -- : body :
+I, [2022-01-19T17:24:54.614923 #79345]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"62", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:24:54 GMT"}, see debug logs for body
+D, [2022-01-19T17:24:54.614969 #79345] DEBUG -- : body: [{"title":"Lorem Ipsum","body":"Lorem ipsum dolar sit amet."}]
+I, [2022-01-19T17:24:54.615813 #79345]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Pongs state A request for Pong API with GET /pong returns a response which has status code 200'
+I, [2022-01-19T17:24:54.617193 #79345]  INFO -- : Sending GET request to path: "/pong" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Pongs state"}]}, see debug logs for body
+D, [2022-01-19T17:24:54.617237 #79345] DEBUG -- : body :
+I, [2022-01-19T17:24:54.619167 #79345]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"17", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:24:54 GMT"}, see debug logs for body
+D, [2022-01-19T17:24:54.619210 #79345] DEBUG -- : body: "{"msg": "ping"}"
+I, [2022-01-19T17:25:22.481346 #80568]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T17:25:22.485764 #80568]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T17:25:22.485825 #80568] DEBUG -- : body :
+I, [2022-01-19T17:25:22.499368 #80568]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"34", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:25:22 GMT"}, see debug logs for body
+D, [2022-01-19T17:25:22.499442 #80568] DEBUG -- : body: {"status":"up","since":"32 hours"}
+I, [2022-01-19T17:25:22.500932 #80568]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T17:25:22.502164 #80568]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T17:25:22.502211 #80568] DEBUG -- : body :
+I, [2022-01-19T17:25:22.504928 #80568]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"41", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:25:22 GMT"}, see debug logs for body
+D, [2022-01-19T17:25:22.504992 #80568] DEBUG -- : body: [{"name":"Ayşe","age":18,"lastname":""}]
+I, [2022-01-19T17:25:22.505801 #80568]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Posts state A request for Posts API with GET /posts returns a response which has status code 200'
+I, [2022-01-19T17:25:22.507264 #80568]  INFO -- : Sending GET request to path: "/posts" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Posts state"}]}, see debug logs for body
+D, [2022-01-19T17:25:22.507349 #80568] DEBUG -- : body :
+I, [2022-01-19T17:25:22.509899 #80568]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"62", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:25:22 GMT"}, see debug logs for body
+D, [2022-01-19T17:25:22.509990 #80568] DEBUG -- : body: [{"title":"Lorem Ipsum","body":"Lorem ipsum dolar sit amet."}]
+I, [2022-01-19T17:25:22.510935 #80568]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Pongs state A request for Pong API with GET /pong returns a response which has status code 200'
+I, [2022-01-19T17:25:22.512250 #80568]  INFO -- : Sending GET request to path: "/pong" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Pongs state"}]}, see debug logs for body
+D, [2022-01-19T17:25:22.512293 #80568] DEBUG -- : body :
+I, [2022-01-19T17:25:22.514269 #80568]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"17", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:25:22 GMT"}, see debug logs for body
+D, [2022-01-19T17:25:22.514313 #80568] DEBUG -- : body: "{"msg": "ping"}"
+I, [2022-01-19T17:25:34.608094 #80653]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T17:25:34.612777 #80653]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T17:25:34.612836 #80653] DEBUG -- : body :
+I, [2022-01-19T17:25:34.626479 #80653]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"34", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:25:34 GMT"}, see debug logs for body
+D, [2022-01-19T17:25:34.626574 #80653] DEBUG -- : body: {"status":"up","since":"32 hours"}
+I, [2022-01-19T17:25:34.628327 #80653]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T17:25:34.629738 #80653]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T17:25:34.629784 #80653] DEBUG -- : body :
+I, [2022-01-19T17:25:34.631961 #80653]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"41", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:25:34 GMT"}, see debug logs for body
+D, [2022-01-19T17:25:34.632012 #80653] DEBUG -- : body: [{"name":"Ayşe","age":18,"lastname":""}]
+I, [2022-01-19T17:25:34.632843 #80653]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Posts state A request for Posts API with GET /posts returns a response which has status code 200'
+I, [2022-01-19T17:25:34.634061 #80653]  INFO -- : Sending GET request to path: "/posts" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Posts state"}]}, see debug logs for body
+D, [2022-01-19T17:25:34.634125 #80653] DEBUG -- : body :
+I, [2022-01-19T17:25:34.636938 #80653]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"62", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:25:34 GMT"}, see debug logs for body
+D, [2022-01-19T17:25:34.637008 #80653] DEBUG -- : body: [{"title":"Lorem Ipsum","body":"Lorem ipsum dolar sit amet."}]
+I, [2022-01-19T17:25:34.637985 #80653]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Pongs state A request for Pong API with GET /pong returns a response which has status code 200'
+I, [2022-01-19T17:25:34.639533 #80653]  INFO -- : Sending GET request to path: "/pong" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Pongs state"}]}, see debug logs for body
+D, [2022-01-19T17:25:34.639581 #80653] DEBUG -- : body :
+I, [2022-01-19T17:25:34.641952 #80653]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"17", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:25:34 GMT"}, see debug logs for body
+D, [2022-01-19T17:25:34.642016 #80653] DEBUG -- : body: "{"msg": "ping"}"
+I, [2022-01-19T17:26:10.435831 #80775]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T17:26:10.440611 #80775]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T17:26:10.440670 #80775] DEBUG -- : body :
+I, [2022-01-19T17:26:10.455244 #80775]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"34", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:26:10 GMT"}, see debug logs for body
+D, [2022-01-19T17:26:10.455317 #80775] DEBUG -- : body: {"status":"up","since":"32 hours"}
+I, [2022-01-19T17:26:10.456688 #80775]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T17:26:10.458019 #80775]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T17:26:10.458062 #80775] DEBUG -- : body :
+I, [2022-01-19T17:26:10.460547 #80775]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"41", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:26:10 GMT"}, see debug logs for body
+D, [2022-01-19T17:26:10.460611 #80775] DEBUG -- : body: [{"name":"Ayşe","age":18,"lastname":""}]
+I, [2022-01-19T17:26:10.461492 #80775]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Posts state A request for Posts API with GET /posts returns a response which has status code 200'
+I, [2022-01-19T17:26:10.463729 #80775]  INFO -- : Sending GET request to path: "/posts" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Posts state"}]}, see debug logs for body
+D, [2022-01-19T17:26:10.463784 #80775] DEBUG -- : body :
+I, [2022-01-19T17:26:10.466194 #80775]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"62", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:26:10 GMT"}, see debug logs for body
+D, [2022-01-19T17:26:10.466247 #80775] DEBUG -- : body: [{"title":"Lorem Ipsum","body":"Lorem ipsum dolar sit amet."}]
+I, [2022-01-19T17:26:10.467248 #80775]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Pongs state A request for Pong API with GET /pong returns a response which has status code 200'
+I, [2022-01-19T17:26:10.468542 #80775]  INFO -- : Sending GET request to path: "/pong" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Pongs state"}]}, see debug logs for body
+D, [2022-01-19T17:26:10.468588 #80775] DEBUG -- : body :
+I, [2022-01-19T17:26:10.470595 #80775]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"17", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:26:10 GMT"}, see debug logs for body
+D, [2022-01-19T17:26:10.470670 #80775] DEBUG -- : body: "{"msg": "ping"}"
+I, [2022-01-19T17:27:05.862312 #80935]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T17:27:05.868949 #80935]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T17:27:05.869135 #80935] DEBUG -- : body :
+I, [2022-01-19T17:27:05.885511 #80935]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"34", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:27:05 GMT"}, see debug logs for body
+D, [2022-01-19T17:27:05.885588 #80935] DEBUG -- : body: {"status":"up","since":"32 hours"}
+I, [2022-01-19T17:27:05.887383 #80935]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T17:27:05.889379 #80935]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T17:27:05.889463 #80935] DEBUG -- : body :
+I, [2022-01-19T17:27:05.891986 #80935]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"41", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:27:05 GMT"}, see debug logs for body
+D, [2022-01-19T17:27:05.892044 #80935] DEBUG -- : body: [{"name":"Ayşe","age":18,"lastname":""}]
+I, [2022-01-19T17:27:05.893015 #80935]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Posts state A request for Posts API with GET /posts returns a response which has status code 200'
+I, [2022-01-19T17:27:05.894495 #80935]  INFO -- : Sending GET request to path: "/posts" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Posts state"}]}, see debug logs for body
+D, [2022-01-19T17:27:05.894552 #80935] DEBUG -- : body :
+I, [2022-01-19T17:27:05.896938 #80935]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"62", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:27:05 GMT"}, see debug logs for body
+D, [2022-01-19T17:27:05.897031 #80935] DEBUG -- : body: [{"title":"Lorem Ipsum","body":"Lorem ipsum dolar sit amet."}]
+I, [2022-01-19T17:27:05.897934 #80935]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Pongs state A request for Pong API with GET /pong returns a response which has status code 200'
+I, [2022-01-19T17:27:05.899727 #80935]  INFO -- : Sending GET request to path: "/pong" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Pongs state"}]}, see debug logs for body
+D, [2022-01-19T17:27:05.899829 #80935] DEBUG -- : body :
+I, [2022-01-19T17:27:05.902439 #80935]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"17", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:27:05 GMT"}, see debug logs for body
+D, [2022-01-19T17:27:05.902546 #80935] DEBUG -- : body: "{"msg": "ping"}"
+I, [2022-01-19T17:28:08.084637 #81186]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T17:28:08.089652 #81186]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T17:28:08.089729 #81186] DEBUG -- : body :
+I, [2022-01-19T17:28:08.103593 #81186]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"34", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:28:08 GMT"}, see debug logs for body
+D, [2022-01-19T17:28:08.103668 #81186] DEBUG -- : body: {"status":"up","since":"32 hours"}
+I, [2022-01-19T17:28:08.105103 #81186]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T17:28:08.106814 #81186]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T17:28:08.106942 #81186] DEBUG -- : body :
+I, [2022-01-19T17:28:08.110548 #81186]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"41", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:28:08 GMT"}, see debug logs for body
+D, [2022-01-19T17:28:08.110616 #81186] DEBUG -- : body: [{"name":"Ayşe","age":18,"lastname":""}]
+I, [2022-01-19T17:28:08.111504 #81186]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Posts state A request for Posts API with GET /posts returns a response which has status code 200'
+I, [2022-01-19T17:28:08.113205 #81186]  INFO -- : Sending GET request to path: "/posts" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Posts state"}]}, see debug logs for body
+D, [2022-01-19T17:28:08.113263 #81186] DEBUG -- : body :
+I, [2022-01-19T17:28:08.115324 #81186]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"62", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:28:08 GMT"}, see debug logs for body
+D, [2022-01-19T17:28:08.115374 #81186] DEBUG -- : body: [{"title":"Lorem Ipsum","body":"Lorem ipsum dolar sit amet."}]
+I, [2022-01-19T17:28:08.116203 #81186]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Pongs state A request for Pong API with GET /pong returns a response which has status code 200'
+I, [2022-01-19T17:28:08.117560 #81186]  INFO -- : Sending GET request to path: "/pong" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Pongs state"}]}, see debug logs for body
+D, [2022-01-19T17:28:08.117635 #81186] DEBUG -- : body :
+I, [2022-01-19T17:28:08.119868 #81186]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"19", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Wed, 19 Jan 2022 14:28:08 GMT", "X-Content-Type-Options"=>"nosniff"}, see debug logs for body
+D, [2022-01-19T17:28:08.119914 #81186] DEBUG -- : body: 404 page not found
+
+I, [2022-01-19T17:28:12.301180 #81267]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T17:28:12.305650 #81267]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T17:28:12.305706 #81267] DEBUG -- : body :
+I, [2022-01-19T17:28:12.318138 #81267]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"34", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:28:12 GMT"}, see debug logs for body
+D, [2022-01-19T17:28:12.318205 #81267] DEBUG -- : body: {"status":"up","since":"32 hours"}
+I, [2022-01-19T17:28:12.319704 #81267]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T17:28:12.321236 #81267]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T17:28:12.321294 #81267] DEBUG -- : body :
+I, [2022-01-19T17:28:12.324164 #81267]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"41", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:28:12 GMT"}, see debug logs for body
+D, [2022-01-19T17:28:12.324222 #81267] DEBUG -- : body: [{"name":"Ayşe","age":18,"lastname":""}]
+I, [2022-01-19T17:28:12.325156 #81267]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Posts state A request for Posts API with GET /posts returns a response which has status code 200'
+I, [2022-01-19T17:28:12.326902 #81267]  INFO -- : Sending GET request to path: "/posts" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Posts state"}]}, see debug logs for body
+D, [2022-01-19T17:28:12.326961 #81267] DEBUG -- : body :
+I, [2022-01-19T17:28:12.329475 #81267]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"62", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:28:12 GMT"}, see debug logs for body
+D, [2022-01-19T17:28:12.329540 #81267] DEBUG -- : body: [{"title":"Lorem Ipsum","body":"Lorem ipsum dolar sit amet."}]
+I, [2022-01-19T17:28:12.330393 #81267]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Pongs state A request for Pong API with GET /pong returns a response which has status code 200'
+I, [2022-01-19T17:28:12.331660 #81267]  INFO -- : Sending GET request to path: "/pong" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Pongs state"}]}, see debug logs for body
+D, [2022-01-19T17:28:12.331715 #81267] DEBUG -- : body :
+I, [2022-01-19T17:28:12.333904 #81267]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"19", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Wed, 19 Jan 2022 14:28:12 GMT", "X-Content-Type-Options"=>"nosniff"}, see debug logs for body
+D, [2022-01-19T17:28:12.333953 #81267] DEBUG -- : body: 404 page not found
+
+I, [2022-01-19T17:29:42.705698 #81359]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T17:29:42.711556 #81359]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T17:29:42.711654 #81359] DEBUG -- : body :
+I, [2022-01-19T17:29:42.728791 #81359]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"34", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:29:42 GMT"}, see debug logs for body
+D, [2022-01-19T17:29:42.728867 #81359] DEBUG -- : body: {"status":"up","since":"32 hours"}
+I, [2022-01-19T17:29:42.730614 #81359]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T17:29:42.732261 #81359]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T17:29:42.732317 #81359] DEBUG -- : body :
+I, [2022-01-19T17:29:42.734722 #81359]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"41", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:29:42 GMT"}, see debug logs for body
+D, [2022-01-19T17:29:42.734784 #81359] DEBUG -- : body: [{"name":"Ayşe","age":18,"lastname":""}]
+I, [2022-01-19T17:29:42.736292 #81359]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Posts state A request for Posts API with GET /posts returns a response which has status code 200'
+I, [2022-01-19T17:29:42.737663 #81359]  INFO -- : Sending GET request to path: "/posts" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Posts state"}]}, see debug logs for body
+D, [2022-01-19T17:29:42.737737 #81359] DEBUG -- : body :
+I, [2022-01-19T17:29:42.740013 #81359]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"62", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:29:42 GMT"}, see debug logs for body
+D, [2022-01-19T17:29:42.740058 #81359] DEBUG -- : body: [{"title":"Lorem Ipsum","body":"Lorem ipsum dolar sit amet."}]
+I, [2022-01-19T17:29:42.740870 #81359]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Pongs state A request for Pong API with GET /pong returns a response which has status code 200'
+I, [2022-01-19T17:29:42.742118 #81359]  INFO -- : Sending GET request to path: "/pong" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Pongs state"}]}, see debug logs for body
+D, [2022-01-19T17:29:42.742161 #81359] DEBUG -- : body :
+I, [2022-01-19T17:29:42.744321 #81359]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"19", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Wed, 19 Jan 2022 14:29:42 GMT", "X-Content-Type-Options"=>"nosniff"}, see debug logs for body
+D, [2022-01-19T17:29:42.744367 #81359] DEBUG -- : body: 404 page not found
+
+I, [2022-01-19T17:29:50.927503 #81654]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T17:29:50.932183 #81654]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T17:29:50.932240 #81654] DEBUG -- : body :
+I, [2022-01-19T17:29:50.945998 #81654]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"34", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:29:50 GMT"}, see debug logs for body
+D, [2022-01-19T17:29:50.946100 #81654] DEBUG -- : body: {"status":"up","since":"32 hours"}
+I, [2022-01-19T17:29:50.947563 #81654]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T17:29:50.949137 #81654]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T17:29:50.949182 #81654] DEBUG -- : body :
+I, [2022-01-19T17:29:50.951521 #81654]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"41", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:29:50 GMT"}, see debug logs for body
+D, [2022-01-19T17:29:50.951576 #81654] DEBUG -- : body: [{"name":"Ayşe","age":18,"lastname":""}]
+I, [2022-01-19T17:29:50.952409 #81654]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Posts state A request for Posts API with GET /posts returns a response which has status code 200'
+I, [2022-01-19T17:29:50.953678 #81654]  INFO -- : Sending GET request to path: "/posts" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Posts state"}]}, see debug logs for body
+D, [2022-01-19T17:29:50.953757 #81654] DEBUG -- : body :
+I, [2022-01-19T17:29:50.955887 #81654]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"62", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:29:50 GMT"}, see debug logs for body
+D, [2022-01-19T17:29:50.955937 #81654] DEBUG -- : body: [{"title":"Lorem Ipsum","body":"Lorem ipsum dolar sit amet."}]
+I, [2022-01-19T17:29:50.956706 #81654]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Pongs state A request for Pong API with GET /pong returns a response which has status code 200'
+I, [2022-01-19T17:29:50.957920 #81654]  INFO -- : Sending GET request to path: "/pong" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Pongs state"}]}, see debug logs for body
+D, [2022-01-19T17:29:50.957991 #81654] DEBUG -- : body :
+I, [2022-01-19T17:29:50.960306 #81654]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"19", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Wed, 19 Jan 2022 14:29:50 GMT", "X-Content-Type-Options"=>"nosniff"}, see debug logs for body
+D, [2022-01-19T17:29:50.960370 #81654] DEBUG -- : body: 404 page not found
+
+I, [2022-01-19T17:31:42.179257 #81968]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T17:31:42.184333 #81968]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T17:31:42.184393 #81968] DEBUG -- : body :
+I, [2022-01-19T17:31:42.198784 #81968]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"34", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:31:42 GMT"}, see debug logs for body
+D, [2022-01-19T17:31:42.198858 #81968] DEBUG -- : body: {"status":"up","since":"32 hours"}
+I, [2022-01-19T17:31:42.200327 #81968]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T17:31:42.201705 #81968]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T17:31:42.201755 #81968] DEBUG -- : body :
+I, [2022-01-19T17:31:42.204961 #81968]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"41", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:31:42 GMT"}, see debug logs for body
+D, [2022-01-19T17:31:42.205071 #81968] DEBUG -- : body: [{"name":"Ayşe","age":18,"lastname":""}]
+I, [2022-01-19T17:31:42.206790 #81968]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Posts state A request for Posts API with GET /posts returns a response which has status code 200'
+I, [2022-01-19T17:31:42.209132 #81968]  INFO -- : Sending GET request to path: "/posts" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Posts state"}]}, see debug logs for body
+D, [2022-01-19T17:31:42.209242 #81968] DEBUG -- : body :
+I, [2022-01-19T17:31:42.211886 #81968]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"62", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:31:42 GMT"}, see debug logs for body
+D, [2022-01-19T17:31:42.211940 #81968] DEBUG -- : body: [{"title":"Lorem Ipsum","body":"Lorem ipsum dolar sit amet."}]
+I, [2022-01-19T17:31:42.212837 #81968]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Pongs state A request for Pong API with GET /pong returns a response which has status code 200'
+I, [2022-01-19T17:31:42.214282 #81968]  INFO -- : Sending GET request to path: "/pong" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Pongs state"}]}, see debug logs for body
+D, [2022-01-19T17:31:42.214328 #81968] DEBUG -- : body :
+I, [2022-01-19T17:31:42.216302 #81968]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"17", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:31:42 GMT"}, see debug logs for body
+D, [2022-01-19T17:31:42.216351 #81968] DEBUG -- : body: "{"msg": "ping"}"
+I, [2022-01-19T17:32:12.561694 #82072]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T17:32:12.566872 #82072]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T17:32:12.566930 #82072] DEBUG -- : body :
+I, [2022-01-19T17:32:12.580048 #82072]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"34", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:32:12 GMT"}, see debug logs for body
+D, [2022-01-19T17:32:12.580123 #82072] DEBUG -- : body: {"status":"up","since":"32 hours"}
+I, [2022-01-19T17:32:12.581804 #82072]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T17:32:12.583312 #82072]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T17:32:12.583365 #82072] DEBUG -- : body :
+I, [2022-01-19T17:32:12.586977 #82072]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"41", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:32:12 GMT"}, see debug logs for body
+D, [2022-01-19T17:32:12.587055 #82072] DEBUG -- : body: [{"name":"Ayşe","age":18,"lastname":""}]
+I, [2022-01-19T17:32:12.587970 #82072]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Posts state A request for Posts API with GET /posts returns a response which has status code 200'
+I, [2022-01-19T17:32:12.589904 #82072]  INFO -- : Sending GET request to path: "/posts" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Posts state"}]}, see debug logs for body
+D, [2022-01-19T17:32:12.589962 #82072] DEBUG -- : body :
+I, [2022-01-19T17:32:12.593230 #82072]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"62", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:32:12 GMT"}, see debug logs for body
+D, [2022-01-19T17:32:12.593395 #82072] DEBUG -- : body: [{"title":"Lorem Ipsum","body":"Lorem ipsum dolar sit amet."}]
+I, [2022-01-19T17:32:12.594368 #82072]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Pongs state A request for Pong API with GET /pong returns a response which has status code 200'
+I, [2022-01-19T17:32:12.596383 #82072]  INFO -- : Sending GET request to path: "/pong" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Pongs state"}]}, see debug logs for body
+D, [2022-01-19T17:32:12.596445 #82072] DEBUG -- : body :
+I, [2022-01-19T17:32:12.599441 #82072]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 14:32:12 GMT"}, see debug logs for body
+D, [2022-01-19T17:32:12.599519 #82072] DEBUG -- : body: {"msg": "ping"}
+I, [2022-01-19T18:09:07.378263 #85007]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T18:09:07.383505 #85007]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T18:09:07.383566 #85007] DEBUG -- : body :
+I, [2022-01-19T18:09:07.399379 #85007]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"43", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 15:09:07 GMT"}, see debug logs for body
+D, [2022-01-19T18:09:07.399443 #85007] DEBUG -- : body: {"status":"up","since":"32 hours","foo":""}
+I, [2022-01-19T18:09:07.401180 #85007]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T18:09:07.402687 #85007]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T18:09:07.402777 #85007] DEBUG -- : body :
+I, [2022-01-19T18:09:07.405500 #85007]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"41", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 15:09:07 GMT"}, see debug logs for body
+D, [2022-01-19T18:09:07.405564 #85007] DEBUG -- : body: [{"name":"Ayşe","age":18,"lastname":""}]
+I, [2022-01-19T18:09:07.406348 #85007]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Posts state A request for Posts API with GET /posts returns a response which has status code 200'
+I, [2022-01-19T18:09:07.407690 #85007]  INFO -- : Sending GET request to path: "/posts" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Posts state"}]}, see debug logs for body
+D, [2022-01-19T18:09:07.407748 #85007] DEBUG -- : body :
+I, [2022-01-19T18:09:07.409724 #85007]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"62", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 15:09:07 GMT"}, see debug logs for body
+D, [2022-01-19T18:09:07.409817 #85007] DEBUG -- : body: [{"title":"Lorem Ipsum","body":"Lorem ipsum dolar sit amet."}]
+I, [2022-01-19T18:09:07.410697 #85007]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider Given Pongs state A request for Pong API with GET /pong returns a response which has status code 200'
+I, [2022-01-19T18:09:07.411938 #85007]  INFO -- : Sending GET request to path: "/pong" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Pongs state"}]}, see debug logs for body
+D, [2022-01-19T18:09:07.411985 #85007] DEBUG -- : body :
+I, [2022-01-19T18:09:07.414147 #85007]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 15:09:07 GMT"}, see debug logs for body
+D, [2022-01-19T18:09:07.414196 #85007] DEBUG -- : body: {"msg": "ping"}
+I, [2022-01-19T18:10:51.040435 #85685]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T18:10:51.045633 #85685]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T18:10:51.045691 #85685] DEBUG -- : body :
+I, [2022-01-19T18:10:51.061443 #85685]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"43", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 15:10:51 GMT"}, see debug logs for body
+D, [2022-01-19T18:10:51.061537 #85685] DEBUG -- : body: {"status":"up","since":"32 hours","foo":""}
+I, [2022-01-19T18:10:51.065537 #85685]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T18:10:51.066988 #85685]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T18:10:51.067037 #85685] DEBUG -- : body :
+I, [2022-01-19T18:10:51.069042 #85685]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"41", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 15:10:51 GMT"}, see debug logs for body
+D, [2022-01-19T18:10:51.069084 #85685] DEBUG -- : body: [{"name":"Ayşe","age":18,"lastname":""}]
+I, [2022-01-19T18:10:51.069844 #85685]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Posts state A request for Posts API with GET /posts returns a response which has status code 200'
+I, [2022-01-19T18:10:51.071014 #85685]  INFO -- : Sending GET request to path: "/posts" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Posts state"}]}, see debug logs for body
+D, [2022-01-19T18:10:51.071057 #85685] DEBUG -- : body :
+I, [2022-01-19T18:10:51.073071 #85685]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"62", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 15:10:51 GMT"}, see debug logs for body
+D, [2022-01-19T18:10:51.073131 #85685] DEBUG -- : body: [{"title":"Lorem Ipsum","body":"Lorem ipsum dolar sit amet."}]
+I, [2022-01-19T18:10:51.073969 #85685]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Pongs state A request for Pong API with GET /pong returns a response which has status code 200'
+I, [2022-01-19T18:10:51.075202 #85685]  INFO -- : Sending GET request to path: "/pong" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Pongs state"}]}, see debug logs for body
+D, [2022-01-19T18:10:51.075243 #85685] DEBUG -- : body :
+I, [2022-01-19T18:10:51.077501 #85685]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 15:10:51 GMT"}, see debug logs for body
+D, [2022-01-19T18:10:51.077555 #85685] DEBUG -- : body: {"msg": "ping"}
+I, [2022-01-19T18:11:36.566268 #85786]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T18:11:36.571412 #85786]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T18:11:36.571471 #85786] DEBUG -- : body :
+I, [2022-01-19T18:11:36.587295 #85786]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"43", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 15:11:36 GMT"}, see debug logs for body
+D, [2022-01-19T18:11:36.587361 #85786] DEBUG -- : body: {"status":"up","since":"32 hours","foo":""}
+I, [2022-01-19T18:11:36.591752 #85786]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T18:11:36.593465 #85786]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T18:11:36.593522 #85786] DEBUG -- : body :
+I, [2022-01-19T18:11:36.596216 #85786]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"41", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 15:11:36 GMT"}, see debug logs for body
+D, [2022-01-19T18:11:36.596279 #85786] DEBUG -- : body: [{"name":"Ayşe","age":18,"lastname":""}]
+I, [2022-01-19T18:11:36.597407 #85786]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Posts state A request for Posts API with GET /posts returns a response which has status code 200'
+I, [2022-01-19T18:11:36.598814 #85786]  INFO -- : Sending GET request to path: "/posts" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Posts state"}]}, see debug logs for body
+D, [2022-01-19T18:11:36.598859 #85786] DEBUG -- : body :
+I, [2022-01-19T18:11:36.601275 #85786]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"62", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 15:11:36 GMT"}, see debug logs for body
+D, [2022-01-19T18:11:36.601341 #85786] DEBUG -- : body: [{"title":"Lorem Ipsum","body":"Lorem ipsum dolar sit amet."}]
+I, [2022-01-19T18:11:36.602386 #85786]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Pongs state A request for Pong API with GET /pong returns a response which has status code 200'
+I, [2022-01-19T18:11:36.604241 #85786]  INFO -- : Sending GET request to path: "/pong" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Pongs state"}]}, see debug logs for body
+D, [2022-01-19T18:11:36.604308 #85786] DEBUG -- : body :
+I, [2022-01-19T18:11:36.606751 #85786]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 15:11:36 GMT"}, see debug logs for body
+D, [2022-01-19T18:11:36.606821 #85786] DEBUG -- : body: {"msg": "ping"}
+I, [2022-01-19T18:12:12.799932 #85940]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Server is healthy A request for API health with GET /health returns a response which has status code 200'
+I, [2022-01-19T18:12:12.805538 #85940]  INFO -- : Sending GET request to path: "/health" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Server is healthy"}]}, see debug logs for body
+D, [2022-01-19T18:12:12.805599 #85940] DEBUG -- : body :
+I, [2022-01-19T18:12:12.822991 #85940]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"46", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 15:12:12 GMT"}, see debug logs for body
+D, [2022-01-19T18:12:12.823063 #85940] DEBUG -- : body: {"status":"up","since":"32 hours","foo":"bar"}
+I, [2022-01-19T18:12:12.824935 #85940]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Users state A request for Users API with GET /users returns a response which has status code 200'
+I, [2022-01-19T18:12:12.826821 #85940]  INFO -- : Sending GET request to path: "/users" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Users state"}]}, see debug logs for body
+D, [2022-01-19T18:12:12.826884 #85940] DEBUG -- : body :
+I, [2022-01-19T18:12:12.829606 #85940]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"41", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 15:12:12 GMT"}, see debug logs for body
+D, [2022-01-19T18:12:12.829664 #85940] DEBUG -- : body: [{"name":"Ayşe","age":18,"lastname":""}]
+I, [2022-01-19T18:12:12.830613 #85940]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Posts state A request for Posts API with GET /posts returns a response which has status code 200'
+I, [2022-01-19T18:12:12.832057 #85940]  INFO -- : Sending GET request to path: "/posts" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Posts state"}]}, see debug logs for body
+D, [2022-01-19T18:12:12.832108 #85940] DEBUG -- : body :
+I, [2022-01-19T18:12:12.834218 #85940]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"62", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 15:12:12 GMT"}, see debug logs for body
+D, [2022-01-19T18:12:12.834267 #85940] DEBUG -- : body: [{"title":"Lorem Ipsum","body":"Lorem ipsum dolar sit amet."}]
+I, [2022-01-19T18:12:12.835097 #85940]  INFO -- : Running example 'Verifying a pact between MyConsumer and MyProvider [PENDING] Given Pongs state A request for Pong API with GET /pong returns a response which has status code 200'
+I, [2022-01-19T18:12:12.836840 #85940]  INFO -- : Sending GET request to path: "/pong" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Pongs state"}]}, see debug logs for body
+D, [2022-01-19T18:12:12.836896 #85940] DEBUG -- : body :
+I, [2022-01-19T18:12:12.839461 #85940]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"15", "Content-Type"=>"application/json", "Date"=>"Wed, 19 Jan 2022 15:12:12 GMT"}, see debug logs for body
+D, [2022-01-19T18:12:12.839527 #85940] DEBUG -- : body: {"msg": "ping"}
